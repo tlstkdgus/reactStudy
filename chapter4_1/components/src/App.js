@@ -1,6 +1,6 @@
 import './App.css';
-import Hello from './components/Hello';
-import Time from './components/Time';
+import Hello from '../../../chapter5_1/hook/src/components/Hello';
+import Time from '../../../chapter5_1/hook/src/components/Time';
 import HelloProps from './components/Props'
 import Resume from './components/Resume';
 
