@@ -1,7 +1,7 @@
 import {createGlobalStyle, styled, css} from 'styled-components'
 import { Example } from './components/Example';
 import {reset} from 'styled-reset';
-
+import { Button, ButtonStyle2, ButtonStyle3} from './components/Button';
 
 // const GlobalStyle = createGlobalStyle`
 // ${reset}
@@ -47,6 +47,9 @@ ${Two};`
 function App() {
   return (
     <ContentDiv>
+      <Button>버튼1</Button>
+      <ButtonStyle2>버튼2</ButtonStyle2>
+      <ButtonStyle3>버튼3</ButtonStyle3>
       <ContentExtends> 확장 스타일입니다.</ContentExtends>
       <Three>또다른 확장 스타일입니다!</Three>
       <h1>hello world</h1>
